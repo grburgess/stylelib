@@ -1,0 +1,38 @@
+# This style is based on Seaborn-darkgrid parameters, the main differences are
+# Default matplotlib font (no problem using Greek letters!)
+# Larger font size for several elements
+# Colorblind friendly color cycle 
+# .15 = dark_gray
+# .8 = light_gray
+figure.facecolor: white
+text.color: .15
+axes.labelcolor: .15
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+xtick.direction: out
+ytick.direction: out
+xtick.color: .15
+ytick.color: .15
+axes.axisbelow: True
+grid.linestyle: -
+lines.solid_capstyle: round
+
+axes.labelsize: 14
+axes.titlesize: 14
+xtick.labelsize: 11
+ytick.labelsize: 11
+legend.fontsize: 11
+
+axes.grid: True
+axes.facecolor: eeeeee
+axes.edgecolor: white
+axes.linewidth: 0
+grid.color: white
+xtick.major.size: 0
+ytick.major.size: 0
+xtick.minor.size: 0
+ytick.minor.size: 0
+
+# color-blind friendly cycle designed using https://colorcyclepicker.mpetroff.net/
+axes.prop_cycle: cycler('color', ['2a2eec', 'fa7c17', '328c06', 'c10c90', '933708', '65e5f3', 'e6e135', '1ccd6a', 'bd8ad5', 'b16b57'])

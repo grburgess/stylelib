@@ -1,0 +1,18 @@
+backend: ps
+axes.labelsize: 8
+font.size: 10
+legend.fontsize: 10
+xtick.labelsize: 6
+ytick.labelsize: 6
+xtick.major.size: 4
+xtick.minor.size: 2.5
+xtick.major.width: 1.5
+xtick.minor.width: .75
+ytick.major.size: 4
+ytick.minor.size: 2.5
+ytick.major.width: 1.5
+ytick.minor.width: .75
+text.usetex: True
+figure.figsize: 6.39, 4.59
+font.family: sans-serif
+font.sans-serif: Helvetica

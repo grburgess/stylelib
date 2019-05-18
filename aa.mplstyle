@@ -1,0 +1,76 @@
+backend: pgf
+
+# font.size: 10
+#legend.fontsize: 10
+
+text.usetex: True
+font.family:serif
+font.serif: Times New Roman
+font.size:8
+text.color: 3D3D3D
+axes.labelsize: 10
+pgf.rcfonts:False
+pgf.texsystem:lualatex
+
+pgf.preamble:['\usepackage{amsmath,amssymb,latexsym} \usepackage{aa}']
+
+
+
+
+xtick.labelsize: 8
+ytick.labelsize: 8
+
+xtick.major.width: .5
+xtick.minor.width: .25
+xtick.color: 3D3D3D
+ytick.major.width: .5
+ytick.minor.width: .25
+ytick.color: 3D3D3D
+grid.color: C4C4C4
+grid.linewidth: 0.5
+				              
+axes.spines.left   : True   ## display axis spines
+axes.spines.bottom : True
+axes.spines.top    : False
+axes.spines.right  : False
+axes.labelcolor     : 3D3D3D
+
+savefig.bbox        : tight ## 'tight' or 'standard'.
+savefig.transparent : True   ## setting that controls whether figures are saved with a
+
+#axes.facecolor      : white   ## axes background color
+axes.edgecolor      :  3D3D3D   ## axes edge color
+axes.linewidth      : 0.8     ## edge linewidth
+#axes.grid           : False   ## display grid or not
+#axes.grid.axis      : both    ## which axis the grid should apply to
+#axes.grid.which     : major   ## gridlines at major, minor or both ticks
+#axes.titlesize      : large   ## fontsize of the axes title
+#axes.titleweight    : normal  ## font weight of title
+#axes.titlepad       : 6.0     ## pad between axes and title in points
+
+                   
+#### Legend
+#legend.loc           : best
+legend.frameon       : True     ## if True, draw the legend on a background patch
+#legend.framealpha    : 0.8      ## legend patch transparency
+#legend.facecolor     : inherit  ## inherit from axes.facecolor; or color spec
+#legend.edgecolor     : 3D3D3D      ## background patch boundary color
+#legend.fancybox      : True     ## if True, use a rounded box for the
+                                 ## legend background, else a rectangle
+#legend.shadow        : False    ## if True, give background a shadow effect
+#legend.numpoints     : 1        ## the number of marker points in the legend line
+#legend.scatterpoints : 1        ## number of scatter points
+#legend.markerscale   : 1.0      ## the relative size of legend markers vs. original
+#legend.fontsize      : medium
+#legend.title_fontsize    : None ## None sets to the same as the default axes.  
+## Dimensions as fraction of fontsize:
+#legend.borderpad     : 0.4      ## border whitespace
+#legend.labelspacing  : 0.5      ## the vertical space between the legend entries
+#legend.handlelength  : 2.0      ## the length of the legend lines
+#legend.handleheight  : 0.7      ## the height of the legend handle
+#legend.handletextpad : 0.8      ## the space between the legend line and legend text
+#legend.borderaxespad : 0.5      ## the border between the axes and legend edge
+#legend.columnspacing : 2.0      ## column separation
+
+
+figure.figsize:  3.486924034869240, 2.1550375697381146

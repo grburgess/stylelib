@@ -1,0 +1,1 @@
+axes.prop_cycle: cycler("color", ["392682","7a3a9a","3f86bc","28ada8","83dde0"] )
