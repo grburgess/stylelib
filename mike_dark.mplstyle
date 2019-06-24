@@ -10,7 +10,7 @@ xtick.labelsize: 12
 ytick.labelsize: 12
 
 
-axes.prop_cycle: cycler('color', ["FB4142", "94376C", "CE75AD", "76BDCF", "9DCFF0"])
+axes.prop_cycle: cycler('color', ["1DEBA6", "FF0059", "F6EF5B", "1B998B","49C6E5"])
 
 xtick.major.width: 1.
 xtick.minor.width: .5
@@ -30,7 +30,7 @@ axes.labelcolor     : F6F6F6
 savefig.bbox        : tight ## 'tight' or 'standard'.
 savefig.transparent : True    ## setting that controls whether figures are saved with a
 
-axes.facecolor      : white   ## axes background color
+axes.facecolor      : none   ## axes background color
 axes.edgecolor      :  F6F6F6   ## axes edge color
 axes.linewidth      : 1.     ## edge linewidth
 axes.grid           : False   ## display grid or not
