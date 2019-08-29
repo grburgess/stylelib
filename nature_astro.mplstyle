@@ -22,3 +22,10 @@ axes.spines.left   : True   ## display axis spines
 axes.spines.bottom : True
 axes.spines.top    : False
 axes.spines.right  : False
+
+axes.edgecolor      :  3D3D3D   ## axes edge color
+ytick.color: 3D3D3D
+xtick.color: 3D3D3D
+text.color: 3D3D3D
+axes.labelcolor     : 3D3D3D
+legend.edgecolor     : 3D3D3D 
