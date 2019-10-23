@@ -44,3 +44,6 @@ axes.grid           : False   ## display grid or not
 legend.frameon       : True     ## if True, draw the legend on a background patch
 
 
+hist.bins : 25
+patch.edgecolor : 909495
+lines.linewidth : 2
